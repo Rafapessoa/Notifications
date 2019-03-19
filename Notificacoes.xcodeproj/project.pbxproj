@@ -12,6 +12,8 @@
 		AC20714C2240592B00FEAB96 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC20714A2240592B00FEAB96 /* Main.storyboard */; };
 		AC20714E2240592D00FEAB96 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC20714D2240592D00FEAB96 /* Assets.xcassets */; };
 		AC2071512240592D00FEAB96 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC20714F2240592D00FEAB96 /* LaunchScreen.storyboard */; };
+		AC20715922407A2200FEAB96 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC20715822407A2200FEAB96 /* SettingsViewController.swift */; };
+		AC20715B2240811A00FEAB96 /* Settings.bundle in Resources */ = {isa = PBXBuildFile; fileRef = AC20715A2240811A00FEAB96 /* Settings.bundle */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		AC20714D2240592D00FEAB96 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AC2071502240592D00FEAB96 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AC2071522240592D00FEAB96 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC20715822407A2200FEAB96 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		AC20715A2240811A00FEAB96 /* Settings.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Settings.bundle; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +42,7 @@
 		AC20713A2240592B00FEAB96 = {
 			isa = PBXGroup;
 			children = (
+				AC20715A2240811A00FEAB96 /* Settings.bundle */,
 				AC2071452240592B00FEAB96 /* Notificacoes */,
 				AC2071442240592B00FEAB96 /* Products */,
 			);
@@ -57,6 +62,7 @@
 				AC2071462240592B00FEAB96 /* AppDelegate.swift */,
 				AC2071482240592B00FEAB96 /* ViewController.swift */,
 				AC20714A2240592B00FEAB96 /* Main.storyboard */,
+				AC20715822407A2200FEAB96 /* SettingsViewController.swift */,
 				AC20714D2240592D00FEAB96 /* Assets.xcassets */,
 				AC20714F2240592D00FEAB96 /* LaunchScreen.storyboard */,
 				AC2071522240592D00FEAB96 /* Info.plist */,
@@ -122,6 +128,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AC20715B2240811A00FEAB96 /* Settings.bundle in Resources */,
 				AC2071512240592D00FEAB96 /* LaunchScreen.storyboard in Resources */,
 				AC20714E2240592D00FEAB96 /* Assets.xcassets in Resources */,
 				AC20714C2240592B00FEAB96 /* Main.storyboard in Resources */,
@@ -137,6 +144,7 @@
 			files = (
 				AC2071492240592B00FEAB96 /* ViewController.swift in Sources */,
 				AC2071472240592B00FEAB96 /* AppDelegate.swift in Sources */,
+				AC20715922407A2200FEAB96 /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
